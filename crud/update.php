@@ -31,4 +31,6 @@ try {
 }
 
 $conn = null;
+
+header('Location: ../vis_tab_produtos.php')
 ?>
