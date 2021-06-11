@@ -14,7 +14,7 @@
   <body>
     
     <main class="container">
-        <h3><a href="index.php">Ínicio</a>Ínicio</h3>
+        <h3><a href="index.php">Ínicio</a></h3>
         <h1>Tabela de Produtos Cadastrados</h1>
 
         <table class="table">
