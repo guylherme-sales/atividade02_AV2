@@ -20,9 +20,9 @@
           <thead>
             <tr>
               <th scope="col">Id</th>
-              <th scope="col">Código</th>
-              <th scope="col">Nome</th>
-              <th scope="col">Qtde</th>
+              <th scope="col">Código do Produto</th>
+              <th scope="col">Nome do Produto</th>
+              <th scope="col">Quantidade</th>
               <th scope="col">Opções</th>
             </tr>
           </thead>
