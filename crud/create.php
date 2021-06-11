@@ -1,4 +1,9 @@
 <?php
+//variaveis da página de cadastro
+$codigo = $_POST['codigo'];
+$nome = $_POST['nome'];
+$qtde = $_POST['qtde'];
+
 //PAGINA DE CADASTRO DE USUÁRIOS
 
 // Dados de conexão HEROKU

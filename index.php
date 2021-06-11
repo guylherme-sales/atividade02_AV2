@@ -10,7 +10,7 @@
 
     <title>ATIVIDADE 02 - AV2</title>
   </head>
-  <body>
+  <body class="container">
     
     <h1>Atividade 02 para AV2</h1>
     <br>
