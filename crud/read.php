@@ -22,7 +22,7 @@ try {
     echo '<td>'.$v['nome'].'</td>';
     echo '<td>'.$v['qtde'].'</td>';
     echo '<td> <a class="btn btn-outline-danger" href="crud/delete.php?id='.$v['id'].'" >   <i class="far fa-trash-alt"></i>    </a> 
-      <a class="btn btn-outline-primary" href="edt_user.php?id='.$v['id'].'" >   <i class="far fa-edit"></i>        </a>   
+      <a class="btn btn-outline-primary" href="editar_produto.php?id='.$v['id'].'" >   <i class="far fa-edit"></i>        </a>   
     </td>';
     echo '</tr>';
   }
