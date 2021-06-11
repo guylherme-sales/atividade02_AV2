@@ -2,9 +2,9 @@
 //PAGINA DE CADASTRO DE USUÁRIOS
 
 // Dados de conexão HEROKU
-$servername = "qao3ibsa7hhgecbv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com	";
+$servername = "qao3ibsa7hhgecbv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
 $username   = "rxx8041xlh3ph4xo";
-$password   = "	e0ax6pldnazbmzq9";
+$password   = "e0ax6pldnazbmzq9";
 $dbname     = "ryxllcn8snynvw1v";
 
 try {
