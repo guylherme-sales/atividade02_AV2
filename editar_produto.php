@@ -61,7 +61,7 @@ $conn = null;
 
             <div class="mb-3">
                 <label for="exampleInputQtde1" class="form-label">Quantidade</label>
-                <input type="number" min="1" max="10" name="qtde" class="form-control" required id="exampleInputQtde1" value="<?php echo $qtde ?>">
+                <input type="number" min="1" max="100" name="qtde" class="form-control" required id="exampleInputQtde1" value="<?php echo $qtde ?>">
             </div>
             <br>
             <button type="submit" class="btn btn-primary">Atualizar Produto</button>
