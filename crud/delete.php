@@ -1,5 +1,6 @@
 <?php
-//PAGINA DE EDIÇÃO DE USUÁRIOS
+//variaveis da tabela de produtos
+$id = $_GET['id'];
 
 // Dados de conexão HEROKU
 $servername = "qao3ibsa7hhgecbv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
@@ -24,4 +25,5 @@ try {
 
 $conn = null;
 
+header('Location: ../vis_tab_produtos.php')
 ?>
