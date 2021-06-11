@@ -23,8 +23,6 @@
     <a href="cad_produto.html">Cadastrar Produto</a>
     <br><br><hr><br>
     <a href="vis_tab_produtos.php">Visualizar Tabela de Produtos</a>
-    <br><br><hr><br>
-    <a href="editar_produto.php">Editar Produto</a>
     <br><hr><hr>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
