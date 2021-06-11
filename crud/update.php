@@ -1,5 +1,9 @@
 <?php
-//PAGINA DE EDIÇÃO DE USUÁRIOS
+//variaveis para serem utilizadas no código
+$id = $_POST['id'];
+$codigo = $_POST['codigo'];
+$nome = $_POST['nome'];
+$qtde = $_POST['qtde'];
 
 // Dados de conexão HEROKU
 $servername = "qao3ibsa7hhgecbv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
@@ -12,7 +16,7 @@ try {
   // set the PDO error mode to exception
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-  $sql = "UPDATE produtos SET name='$nome', email='$email', password='$senha' WHERE id=$id";
+  $sql = "UPDATE produtos SET codigo='$codigo', nome='$nome', qtde='$qtde' WHERE id=$id";
 
   // Prepare statement
   $stmt = $conn->prepare($sql);
