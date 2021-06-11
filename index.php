@@ -21,9 +21,9 @@
     <h2>Opções para o BD</h2>
     <a href="cad_produto.html">Cadastrar Produto</a>
     <br>
-    <a href="vis_tab_produtos.php.">Visualizar Tabela de Produtos</a>
+    <a href="vis_tab_produtos.php">Visualizar Tabela de Produtos</a>
     <br>
-    <a href="edt_user.php.">Editar Produto</a>
+    <a href="edt_user.php">Editar Produto</a>
 
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
