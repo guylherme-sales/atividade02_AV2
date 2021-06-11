@@ -42,7 +42,7 @@ $conn = null;
     <main class="container">
         <h1>Cadastrar Produto</h1>
 
-        <form name="form_cad_user" action="crud/update.php" method="POST">
+        <form name="form_cad_user" action="crud/update.php?id=<?php echo $id ?>" method="POST">
             <div class="mb-3">
                 <label for="exampleInputId1" class="form-label">Id</label>
                 <input type="number" min="1" name="id" class="form-control" required disabled id="exampleInputId" aria-describedby="idHelp" value="<?php echo $id ?>">

@@ -1,6 +1,6 @@
 <?php
 //variaveis para serem utilizadas no código
-$id = $_POST['id'];
+$id = $_GET['id'];
 $codigo = $_POST['codigo'];
 $nome = $_POST['nome'];
 $qtde = $_POST['qtde'];
