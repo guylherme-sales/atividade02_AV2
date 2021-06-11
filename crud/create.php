@@ -20,10 +20,12 @@ try {
   VALUES ('$codigo', '$nome', '$qtde')";
   // use exec() because no results are returned
   $conn->exec($sql);
-  echo "Usuário cadastrado com sucesso!";
+  //echo "Usuário cadastrado com sucesso!";
 } catch(PDOException $e) {
   echo $sql . "<br>" . $e->getMessage();
 }
 
 $conn = null;
+
+header('Location: ../vis_tab_produtos.php')
 ?>
