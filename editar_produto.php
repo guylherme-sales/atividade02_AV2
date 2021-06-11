@@ -50,17 +50,17 @@ $conn = null;
         
             <div class="mb-3">
                 <label for="exampleInputCodigo1" class="form-label">Código</label>
-                <input type="number" min="1" name="codigo" class="form-control" required id="exampleInputCodigo" aria-describedby="codigoHelp">
+                <input type="number" min="1" name="codigo" class="form-control" required id="exampleInputCodigo" aria-describedby="codigoHelp" value="<?php echo $codigo ?>">
             </div>
 
             <div class="mb-3">
                 <label for="exampleInputNome1" class="form-label">Nome do Produto</label>
-                <input type="text" name="nome" class="form-control" required id="exampleInputNome" aria-describedby="nomeHelp">
+                <input type="text" name="nome" class="form-control" required id="exampleInputNome" aria-describedby="nomeHelp" value="<?php echo $nome ?>">
             </div>
 
             <div class="mb-3">
                 <label for="exampleInputQtde1" class="form-label">Quantidade</label>
-                <input type="number" min="1" max="10" name="qtde" class="form-control" required id="exampleInputQtde1">
+                <input type="number" min="1" max="10" name="qtde" class="form-control" required id="exampleInputQtde1" value="<?php echo $qtde ?>">
             </div>
             <br>
             <button type="submit" class="btn btn-primary">Atualizar Produto</button>
