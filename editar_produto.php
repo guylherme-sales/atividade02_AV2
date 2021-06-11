@@ -40,7 +40,8 @@ $conn = null;
   <body>
     
     <main class="container">
-        <h1>Cadastrar Produto</h1>
+        <h3><a href="index.php"><i class="bi bi-arrow-left-circle-fill"></i></a>Ínicio</h3>
+        <h1>Atualização de Cadastro de Produto</h1>
 
         <form name="form_cad_user" action="crud/update.php?id=<?php echo $id ?>" method="POST">
             <div class="mb-3">

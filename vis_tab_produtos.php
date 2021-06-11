@@ -14,6 +14,7 @@
   <body>
     
     <main class="container">
+        <h3><a href="index.php"><i class="bi bi-arrow-left-circle-fill"></i></a>Ínicio</h3>
         <h1>Tabela de Produtos Cadastrados</h1>
 
         <table class="table">
